@@ -1,0 +1,45 @@
+/* ------ BANNER ----- */
+#banner
+{
+    background-image: linear-gradient(to right,#a517bc,#5f1782);
+    color:#fff;
+    padding-top: 5%;
+}
+.promo-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.btn {
+    display:block;
+    height: 45px;
+    width: 150px;
+    border-radius: 0;
+    border: 1px solid #5f1782;
+    color: #fff;
+    background-color: #5f1782;
+  }
+
+  .img-fluid
+  {
+      width: 350px;
+      padding-left: 30px;
+      padding-top: 30px;
+  }
+
+  .promo-title
+  {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+ 
+
+  @media screen and (max-width:600px)
+  {
+      .btn
+      {
+        margin: 30px 140px; 
+      }
+  }
